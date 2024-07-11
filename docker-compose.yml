@@ -1,0 +1,17 @@
+version: '3'
+services:
+  producer:
+    build:
+      context: ./producer
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+
+  consumer:
+    build:
+      context: ./consumer
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    depends_on:
+      - producer

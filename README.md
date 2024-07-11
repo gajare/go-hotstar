@@ -1,2 +1,11 @@
-# go-hotstar
-this repo having two microservice which will act as producer and consumer
+# Go Hotstar Application
+
+This project simulates a Hotstar-like application with two microservices: one producing cricket match data and the other consuming this data.
+
+## Prerequisites
+
+- Docker
+- Docker Compose
+- Go 1.18 or later
+
+## Project Structure
