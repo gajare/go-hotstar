@@ -25,8 +25,8 @@ This project contains two microservices written in Go: one for producing cricket
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/cricket-microservices.git
-cd cricket-microservices
+git clone https://github.com/gajare/go-hotstar.git
+cd go-hotstar
 
 
 docker-compose up --build
